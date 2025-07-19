@@ -1,0 +1,2 @@
+extract
+zip -s0 Meld.zip --out Meld.dmg.zip

@@ -1,0 +1,2 @@
+extract
+zip -s0 ConvertToMp4.zip --out ConvertToMp4.dmg.zip

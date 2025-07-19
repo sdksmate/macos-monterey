@@ -1,2 +1,5 @@
+split into chunks/parts
 zip Crop\ Any\ Video\ 2.0.5\ MAS\ \[FileCR\].dmg.zip --out crop-parts.zip -s 20m
 
+extract
+zip -s0 crop-parts.zip --out Crop\ Any\ Video\ 2.0.5\ MAS\ \[FileCR\].dmg.zip

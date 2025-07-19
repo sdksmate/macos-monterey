@@ -1,0 +1,2 @@
+download all in single folder and extract
+zip -s0 keka-parts.zip --out Keka-1.5.2.dmg.zip  

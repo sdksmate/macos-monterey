@@ -1,0 +1,13 @@
+> md5 python-3.11.0b5-macos11.pkg 
+MD5 (python-3.11.0b5-macos11.pkg) = df1da04df4fc0593844f6ff161f38e54
+
+> split -b 19m python-3.11.0b5-macos11.pkg python3-parts-
+
+> ls
+python-3.11.0b5-macos11.pkg	python3-parts-ab
+python3-parts-aa		python3-parts-ac
+
+> cat python3-parts-aa python3-parts-ab python3-parts-ac > python3-new.pkg
+
+> md5 python3-new.pkg 
+MD5 (python3-new.pkg) = df1da04df4fc0593844f6ff161f38e54

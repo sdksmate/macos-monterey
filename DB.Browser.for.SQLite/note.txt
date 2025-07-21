@@ -1,0 +1,18 @@
+> md5 DB.Browser.for.SQLite-v3.13.1.dmg 
+MD5 (DB.Browser.for.SQLite-v3.13.1.dmg) = 5c270dda04d8352aa8b551f936cd9e8d
+
+> split -b 19m DB.Browser.for.SQLite-v3.13.1.dmg db-parts-
+
+>  ls
+DB.Browser.for.SQLite-v3.13.1.dmg	db-parts-ab
+db-parts-aa				db-parts-ac
+
+> cat db-parts-aa db-parts-ab db-parts-ac > db-sqlite.dmg
+
+> ls
+DB.Browser.for.SQLite-v3.13.1.dmg	db-parts-ac
+db-parts-aa				db-sqlite.dmg
+db-parts-ab
+
+> md5 db-sqlite.dmg 
+MD5 (db-sqlite.dmg) = 5c270dda04d8352aa8b551f936cd9e8d

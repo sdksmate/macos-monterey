@@ -1,0 +1,18 @@
+> md5 XnConvert-1.105.0-mac.dmg 
+MD5 (XnConvert-1.105.0-mac.dmg) = 084cff262f59c08d635a4bdd085ecb8e
+
+> split -b 19m XnConvert-1.105.0-mac.dmg xnconvert-parts-
+
+> ls
+XnConvert-1.105.0-mac.dmg       xnconvert-parts-ab
+xnconvert-parts-aa              xnconvert-parts-ac
+
+> cat xnconvert-parts-aa xnconvert-parts-ab xnconvert-parts-ac > xnconvert.dmg
+
+> ls
+XnConvert-1.105.0-mac.dmg       xnconvert-parts-ac
+xnconvert-parts-aa              xnconvert.dmg
+xnconvert-parts-ab
+
+> md5 xnconvert.dmg
+MD5 (xnconvert.dmg) = 084cff262f59c08d635a4bdd085ecb8e

@@ -1,0 +1,15 @@
+> md5 Pinta-macos-x86_64.dmg 
+MD5 (Pinta-macos-x86_64.dmg) = 19877ef0a314b648a6bd049c75b01fb1
+> 
+> ls 
+Pinta-macos-x86_64.dmg
+> 
+> split -b 19m Pinta-macos-x86_64.dmg pinta-parts-
+> ls
+Pinta-macos-x86_64.dmg	pinta-parts-ab		pinta-parts-ad
+pinta-parts-aa		pinta-parts-ac
+> cat pinta-parts-* > pinta.dmg
+> 
+> md5 pinta.dmg 
+MD5 (pinta.dmg) = 19877ef0a314b648a6bd049c75b01fb1
+> 

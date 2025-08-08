@@ -1,0 +1,10 @@
+% md5 Phoenix.Code_4.0.3_x64.dmg 
+MD5 (Phoenix.Code_4.0.3_x64.dmg) = 0ca4161b9a3ecdeb61edf1358fe79228
+
+% split -b 19m Phoenix.Code_4.0.3_x64.dmg code-parts-
+
+% cat code-parts-a* > code.dmg
+
+% md5 code.dmg 
+MD5 (code.dmg) = 0ca4161b9a3ecdeb61edf1358fe79228
+ 
